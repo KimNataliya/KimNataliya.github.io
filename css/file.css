@@ -1,0 +1,211 @@
+li{
+	list-style-type: none;
+}
+
+.containers{
+	position: relative;
+	text-align: center;
+	color: #ffffff;
+	font-size: 5vw;
+	font-weight: 500;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+h3{
+	font-size: 2vw;
+}
+.img-katalog{
+	padding-top: 2.9vw;
+}
+.img-katalog a:hover{
+	text-decoration: none;
+}
+.img-katalogg{
+	padding-top: 9vw;
+}
+.img-katalogg a:hover{
+	text-decoration: none;
+}
+.sps a{
+	color: #9A9A9A;
+	font-size: 1vw;
+}
+.sps a:hover{
+	color: #C7C7C7;
+	text-decoration: none;
+	
+}
+.modal-win{
+	padding-top: 1.5vw;
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+	font-size: 1.5vw;
+	color: #7E5E5E;
+}
+
+.foot{
+	padding-left: 7vw;
+}
+
+.buton{
+	width: 23.5vw;
+}
+
+.forma{
+	font-size: 1vw;
+	padding-right: 10vw;
+	color:#DADADA;
+	border-color: #C4C4C4;
+	border-radius: 1px;
+	margin-bottom: 2vw;
+}
+
+.btn-foot{
+	font-size: 1vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	border-color: #7E5E5E;
+	border-radius: 1px;
+	margin-bottom: 2vw;
+}
+
+.welcome-email{
+	padding-top: 2vw;
+	padding-bottom: 1vw;
+	font-size: 1.2vw;
+}
+
+.welcome{
+	padding-top: 2vw;
+	font-size: 1.2vw;
+	padding-left: 2.5vw;
+}
+
+.headd {
+	max-width: 90vw;
+	max-height: 15vw;
+}
+h1{
+	margin-top: 9vw;
+	color: #946A6A;
+	font-size: 3vw;
+}
+.imgee{
+	max-width: 100%
+}
+.imge{
+	max-height: 250px;
+}
+.pr{
+	padding-top:10px;
+}
+.pr a{
+	text-decoration: none;
+	color: #000000;
+}
+.pr a:hover{
+	color: #696969;
+}
+
+.page-linkk a{
+	color: #534141;
+}
+.page-linkk a:hover{
+	color: #8B6B6B;
+	background-color: #ffffff;
+}
+
+.num{
+	font-size: 1vw;
+}
+
+.page-itemm{
+	margin: 0.2vw;
+}
+.page-itemm a{
+	color: #ffffff;
+}
+.page-itemm a:hover{
+	color: #696969;
+}
+
+.text-gl{
+	font-size: 1vw;
+}
+
+.lead{
+	font-size: 4vw;
+	margin-bottom: 5vw;
+}
+
+.btn-lg{
+	padding: 1vw 2vw;
+	border-radius: 1px;
+	font-size: 2vw;
+	width: 30%;
+}
+
+.btn-lg a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.btn-lg a:hover{
+	color: #000000;
+}
+
+.text-logo{
+	margin-left: 9vw;
+	font-size: 1vw;
+}
+.text-logo a{
+	color: #CBCBCB;
+}
+
+.text-nowrap{
+	white-space: nowrap;
+}
+.logo{
+	color: #543F3F;
+	font-size: 1.5vw;
+}
+
+.navbar-nav {
+	margin: 0;
+	bottom: 0;
+}
+
+.navbar-nav a {
+	position: relative;
+	color: #523F3F; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 2; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+	font-size: 1.3vw;
+
+}
+.navbar-nav a:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #523F3F; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+.navbar-nav a:focus:after,
+.navbar-nav a:hover:after{
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+
+.imgg{
+	width: 100%;
+	height: 50vw
+}
+
